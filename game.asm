@@ -3,37 +3,6 @@
 # CSCB58 Winter 2024 Assembly Final Project
 # University of Toronto, Scarborough
 #
-# Student: Hoang Duy Anh Le, 1008339184, lehoang8, duyanh.le@mail.utoronto.ca
-#
-# Bitmap Display Configuration:
-# - Unit width in pixels: 4
-# - Unit height in pixels: 4
-# - Display width in pixels: 256
-# - Display height in pixels: 256
-# - Base Address for Display: 0x10008000 ($gp)
-#
-# Which milestones have been reached in this submission?
-# (See the assignment handout for descriptions of the milestones)
-# - Milestone 1/2/3/4 (choose the one the applies)
-# - 4.
-#
-# Which approved features have been implemented for milestone 3?
-# (See the assignment handout for the list of additional features)
-# 1. Moving objects
-# 2. Different levels
-# 3. Disappearing platform
-# 4. Double jump
-#
-# Link to video demonstration for final submission:
-# - https://play.library.utoronto.ca/watch/231258ae74def5fb71e96f5422073eb1
-#
-# Are you OK with us sharing the video with people outside course staff?
-# - Absolutely not.
-#
-# Any additional information that the TA needs to know:
-# - The loading time between levels may be take a while.
-# - There is also a little flickering.
-#
 #####################################################################
 .eqv REFRESH_RATE 40
 .eqv BROWN 0x964b00
